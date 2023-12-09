@@ -206,6 +206,7 @@ img {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .name-feature {
@@ -263,6 +264,8 @@ img {
 }
 .team-card {
   width: calc((100% - 72px) / 4);
+  background: var(--WHITE, #fff);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card:not(:last-child) {
