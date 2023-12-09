@@ -36,13 +36,13 @@ img {
   padding: 0 15px 0 15px;
 }
 
-.div-box container {
+.div-box {
   display: flex;
 }
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 .header-nav {
