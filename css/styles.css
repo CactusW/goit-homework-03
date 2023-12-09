@@ -36,10 +36,11 @@ img {
   padding: 0 15px 0 15px;
 }
 
-.div-box-container {
+.container-header {
   display: flex;
   width: 1158px;
   padding: 0 15px 0 15px;
+  margin: auto;
 }
 
 .container {
@@ -109,6 +110,11 @@ img {
   display: flex;
   gap: 40px;
   padding: 24px 0 24px;
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contacts {
@@ -299,7 +305,8 @@ img {
 /* Portfolio */
 .portfolio {
   width: 1440px;
-  padding: 120px 0 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
