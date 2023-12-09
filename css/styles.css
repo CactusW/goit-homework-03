@@ -243,6 +243,7 @@ img {
   width: 1440px;
   height: 732px;
   flex-shrink: 0;
+  padding: 120px 0 120px;
 }
 
 .div-team {
@@ -307,6 +308,7 @@ img {
   width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
+  border-top: none;
 }
 
 .portfolio-title {
