@@ -395,6 +395,7 @@ img {
   text-transform: uppercase;
   width: 71px;
   height: 21px;
+  display: inline-block;
 }
 
 .footer-text {
