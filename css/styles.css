@@ -36,13 +36,13 @@ img {
   padding: 0 15px 0 15px;
 }
 
-.div-box-conteiner {
+.div-box-container {
   display: flex;
   width: 1158px;
   padding: 0 15px 0 15px;
 }
 
-.conteiner {
+.container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
