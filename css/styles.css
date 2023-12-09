@@ -36,6 +36,9 @@ img {
   padding: 0 15px 0 15px;
 }
 
+.div-box-container {
+  display: flex;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -342,13 +345,7 @@ img {
 
 /* Footer */
 .dark-bgg {
-  flex-shrink: 0;
   background: var(--NAVY-BLUE, #2e2f42);
-  font-family: 'Raleway', sans-serif;
-  line-height: 1.17;
-  width: 1440px;
-  height: 312px;
-  flex-shrink: 0;
   padding: 100px 0 100px;
 }
 
@@ -372,16 +369,12 @@ img {
 
 .span-logo-footer {
   color: #f4f4fd;
-  font-family: 'Raleway' sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 1.17;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 0.03em;
+  font-weight: 700;
   text-transform: uppercase;
-  width: 71px;
-  height: 21px;
-  display: inline-block;
 }
 
 .footer-text {
@@ -392,5 +385,5 @@ img {
   font-weight: 400;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  width: 264px;
+  max-width: 264px;
 }
