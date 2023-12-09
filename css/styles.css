@@ -38,12 +38,15 @@ img {
 
 .div-box-conteiner {
   display: flex;
+  width: 1158px;
+  padding: 0 15px 0 15px;
 }
 
-.div-conteiner {
+.conteiner {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+  border-top: none;
 }
 
 .header-nav {
@@ -97,6 +100,7 @@ img {
 .adress {
   font-style: normal;
   margin-left: auto;
+  display: flex;
 }
 
 .adress-list {
@@ -295,8 +299,7 @@ img {
 /* Portfolio */
 .portfolio {
   width: 1440px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px;
 }
 
 .portfolio-title {
